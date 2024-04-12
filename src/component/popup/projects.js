@@ -25,7 +25,7 @@ export default function Projects() {
                                         <img src={ToDo} alt="" />
                                     </div>
                                     <div class="project-details">
-                                        <p>Simple react based app that allows tasks to be added, highlighted when completed and also removed</p>
+                                        <p>Simple react based app that allows tasks to be added, highlighted when completed and also removed.</p>
                                         <a href="https://spartnit-todo-list.netlify.app/" target="_blank" rel="noreferrer noopener"><span class='project-link'>View Project</span></a>
                                         <a href="https://github.com/SpartnIT/Todo-app" target="_blank" rel="noreferrer noopener"><span class='project-link'>View Code</span></a>
                                     </div>
@@ -54,7 +54,7 @@ export default function Projects() {
                                         <img src={SS2} alt="" />
                                     </div>
                                     <div class="project-details">
-                                        <p>This is the website you are currently viewing .</p>
+                                        <p>This is the website you are currently viewing.</p>
                                         <a href="https://github.com/SpartnIT/portfolioWebsite" target="_blank" rel="noreferrer noopener"><span class='project-link'>View Code</span></a>
                                     </div>
                                 </div>
