@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.deadpage{
+    width: 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crash-icon{
+    width: 8%;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+.crash-icon img{
+    width: 100%;
+}
+
+.crash-text{
+  position: absolute;
+  left: 20%;
+  top: 45%;
+  display: flex;
+  gap: 3rem;
+}
+
+.crash-text h1{
+    font-size: 2rem;
+}
+
+.crash-text p{
+    line-height: 4rem;
+    font-size: 1rem;
+}
+
+.fix-me .btn{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    padding: 1em 1em;
+    background-color: #1A73E8;
+    border-radius: 6px;
+    animation: clickMe 5s infinite;
+}
+
+.fix-me .btn a{
+    text-decoration: none;
+    color: white;
+    animation:clickMe 5s infinite;
+}
+
+@keyframes clickMe{
+    0%{
+        color: white;
+        
+    }
+    25%{
+        color: #000000;
+       
+    }
+    50%{
+        color: white;
+        
+    }
+    100%{
+        color: #000000;
+        
+    }
+}
